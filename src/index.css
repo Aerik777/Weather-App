@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Import Inter font (best free match for the UI) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@theme {
+  /* Main UI font family */
+  --font-sans: Inter, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+
+  /* Optional: Font sizes similar to the UI */
+  --text-hero: 8rem;      /* for the large "20°" text */
+  --text-title: 2rem;
+  --text-body: 1rem;
+
+  /* Optional: Colors similar to screenshot */
+  --color-primary: #707070;
+  --color-secondary: #f6f6f6;
+  --color-background: #e9e9e9;
+  --color-text: #333333;
+
+  /* Rounded cards style */
+  --radius-card: 2rem;
+}
