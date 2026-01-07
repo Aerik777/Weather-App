@@ -1,5 +1,5 @@
 
-import type { CurrentWeatherData } from '../data/data';
+
 
 
 export interface HeroProps {

@@ -20,11 +20,11 @@ export default function SearchBox({
   setForecastWeather,
 }: Props) {
   const [city, setCity] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [_loading, setLoading] = useState(false);
+  const [_error, setError] = useState('');
 
   async function handleSearch(
-    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+    _e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) {
     if (!city.trim()) return;
     try {

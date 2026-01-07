@@ -1,14 +1,14 @@
-@import "tailwindcss";
-
 /* Import Inter font (best free match for the UI) */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
 
 @theme {
   /* Main UI font family */
-  --font-sans: Inter, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-sans: Inter, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial,
+    sans-serif;
 
   /* Optional: Font sizes similar to the UI */
-  --text-hero: 8rem;      /* for the large "20°" text */
+  --text-hero: 8rem; /* for the large "20°" text */
   --text-title: 2rem;
   --text-body: 1rem;
 
